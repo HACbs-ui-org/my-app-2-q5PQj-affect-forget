@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog2-xpo7
+  namespace: mreid-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/mreid-tenant/my-app-2/partner-catalog2-xpo7@sha256:03a57814feb11e6e3725257d91195e437c61fc6e3708747068a7d814a3af088b
+        name: my-java-springboot
+        resources: {}
+status: {}
