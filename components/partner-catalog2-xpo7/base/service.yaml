@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: partner-catalog2-xpo7
     app.kubernetes.io/part-of: my-app-2
   name: partner-catalog2-xpo7
-  namespace: mreid-tenant
 spec:
   ports:
   - name: http-8081
