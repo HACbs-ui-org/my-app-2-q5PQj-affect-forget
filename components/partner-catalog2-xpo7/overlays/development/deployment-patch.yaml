@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/mreid-tenant/my-app-2/partner-catalog2-xpo7@sha256:5f40c826838662390fe7fa2491bee2287a519621df76647a6bc57a7546e35ec6
+      - image: quay.io/stonesoupuicluster/mreid-tenant/my-app-2/partner-catalog2-xpo7@sha256:03a57814feb11e6e3725257d91195e437c61fc6e3708747068a7d814a3af088b
         name: my-java-springboot
         resources: {}
 status: {}
